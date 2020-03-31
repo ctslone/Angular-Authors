@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AuthorsComponent } from './authors/authors.component';
-import { AuthorsService } from './authors.service'
+import { AuthorsService } from './authors.service';
+import { LikeComponent } from './like/like.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthorsComponent
+    AuthorsComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule
