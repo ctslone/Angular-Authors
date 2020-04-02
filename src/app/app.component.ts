@@ -11,4 +11,8 @@ export class AppComponent {
     title: "Title",
     isSelected: false
   }
+
+  onSelectAlert() {
+    alert("You liked this!")
+  }
 }
