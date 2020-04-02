@@ -12,7 +12,9 @@ export class AppComponent {
     isSelected: false
   }
 
-  onSelectAlert() {
-    alert("You liked this!")
+  onSelectAlert(isLiked) {
+      // alert("you liked this")
+      console.log("Status: " + isLiked)
   }
+
 }
