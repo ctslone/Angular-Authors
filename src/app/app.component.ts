@@ -1,3 +1,4 @@
+import { eventArgsObjStructure } from './like/like.component';
 import { Component } from '@angular/core';
 
 @Component({
@@ -12,7 +13,7 @@ export class AppComponent {
     isSelected: false
   }
 
-  onSelectAlert(eventArgs) {
+  onSelectAlert(eventArgs: eventArgsObjStructure) {
       // alert("you liked this")
       console.log("Status: " + eventArgs.newValue)
   }

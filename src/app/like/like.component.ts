@@ -23,3 +23,8 @@ export class LikeComponent implements OnInit {
   }
 
 }
+
+export interface eventArgsObjStructure {
+  newValue: boolean,
+  when: Date
+}
