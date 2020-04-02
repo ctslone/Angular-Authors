@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ang-Auth';
+  post = {
+    title: "Title",
+    isSelected: false
+  }
 }
