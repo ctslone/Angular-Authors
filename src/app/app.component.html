@@ -1,12 +1,17 @@
 <h1>Angular</h1>
+
 <authors></authors>
+
 <app-like [isSelected]="post.isSelected" (change)="onSelectAlert($event)"></app-like>
+
 <capitalization-pipe></capitalization-pipe>
+
 <bootstrap-panel>
     <ng-container class="heading">This is a heading</ng-container>
     <ng-container class="title">This is the title</ng-container>
     <ng-container class="content">This is some dope content</ng-container>
 </bootstrap-panel>
+
 <app-twitter-like
     [likeCount]="tweet.likeCount"
     [isLiked]="tweet.isLiked"
