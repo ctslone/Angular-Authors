@@ -11,6 +11,12 @@ export class AppComponent {
   post = {
     title: "Title",
     isSelected: false
+  };
+
+  tweet = {
+    body: "Here is the body.",
+    isLiked: false,
+    likeCount: 10
   }
 
   onSelectAlert(eventArgs: eventArgsObjStructure) {

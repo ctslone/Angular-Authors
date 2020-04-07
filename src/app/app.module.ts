@@ -7,7 +7,9 @@ import { AuthorsComponent } from './authors/authors.component';
 import { AuthorsService } from './authors.service';
 import { LikeComponent } from './like/like.component';
 import { CapitalizationPipeComponent } from './capitalization-pipe/capitalization-pipe.component';
-import { FormPipePipe } from './form-pipe.pipe'
+import { FormPipePipe } from './form-pipe.pipe';
+import { PanelComponent } from './panel/panel.component';
+import { TwitterLikeComponent } from './twitter-like/twitter-like.component'
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { FormPipePipe } from './form-pipe.pipe'
     LikeComponent,
     CapitalizationPipeComponent,
     FormPipePipe,
+    PanelComponent,
+    TwitterLikeComponent,
     
   ],
   imports: [
