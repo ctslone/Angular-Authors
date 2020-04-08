@@ -29,8 +29,22 @@ export class AppComponent {
     {id: 3, name: "CSS"},
   ]
 
+  otherClasses;
+
   onAdd() { 
     this.classes.push({id: 4, name:"Blockchain"})
+  }
+
+  loadClasses() {
+    this.otherClasses = [
+      {id: 1, name: "GIS"},
+      {id: 2, name: "HTML"},
+      {id: 3, name: "Back End Dev"},
+    ]
+  }
+
+  trackClass(classes) {
+    return classes ? classes.id : undefined
   }
 
   onSelectAlert(eventArgs: eventArgsObjStructure) {

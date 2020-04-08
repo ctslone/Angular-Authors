@@ -46,3 +46,10 @@
         {{ class.name }}
     </li>
 </ul>
+
+<button (click)="loadClasses()">Load Classes</button>
+<ul>
+    <li *ngFor="let class of otherClasses; trackBy: trackClass">
+        {{ class.name }}
+    </li>
+</ul>
