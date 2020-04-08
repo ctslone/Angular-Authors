@@ -19,6 +19,10 @@ export class AppComponent {
     likeCount: 10
   }
 
+  courses = ["Angular", "CSS"]
+
+  viewMode = "map"
+
   onSelectAlert(eventArgs: eventArgsObjStructure) {
       // alert("you liked this")
       console.log("Status: " + eventArgs.newValue)
