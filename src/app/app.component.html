@@ -39,3 +39,10 @@
     <div *ngSwitchCase="'list'">List View</div>
     <div *ngSwitchDefault>This is rendered if no criteria is met</div>
 </div>
+
+<button (click)="onAdd()">Add New Course</button>
+<ul>
+    <li *ngFor="let class of classes">
+        {{ class.name }}
+    </li>
+</ul>

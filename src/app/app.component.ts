@@ -23,6 +23,16 @@ export class AppComponent {
 
   viewMode = "map"
 
+  classes = [
+    {id: 1, name: "Geology"},
+    {id: 2, name: "JavaScript"},
+    {id: 3, name: "CSS"},
+  ]
+
+  onAdd() { 
+    this.classes.push({id: 4, name:"Blockchain"})
+  }
+
   onSelectAlert(eventArgs: eventArgsObjStructure) {
       // alert("you liked this")
       console.log("Status: " + eventArgs.newValue)
