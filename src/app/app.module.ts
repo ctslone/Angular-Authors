@@ -9,7 +9,9 @@ import { LikeComponent } from './like/like.component';
 import { CapitalizationPipeComponent } from './capitalization-pipe/capitalization-pipe.component';
 import { FormPipePipe } from './form-pipe.pipe';
 import { PanelComponent } from './panel/panel.component';
-import { TwitterLikeComponent } from './twitter-like/twitter-like.component'
+import { TwitterLikeComponent } from './twitter-like/twitter-like.component';
+import { InputFormatDirective } from './input-format.directive';
+import { ZippyComponent } from './zippy/zippy.component'
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { TwitterLikeComponent } from './twitter-like/twitter-like.component'
     FormPipePipe,
     PanelComponent,
     TwitterLikeComponent,
+    InputFormatDirective,
+    ZippyComponent,
     
   ],
   imports: [
