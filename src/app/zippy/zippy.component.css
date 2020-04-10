@@ -1,0 +1,26 @@
+.zippy {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.zippy-heading {
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.zippy-body {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.zippy-expand {
+    background: #ccc;
+}
+
+.drop-btn {
+    display: inline;
+    float: right;
+}

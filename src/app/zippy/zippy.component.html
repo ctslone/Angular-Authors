@@ -1,1 +1,9 @@
-<p>zippy works!</p>
+<div class="zippy">
+    <div class="zippy-heading" [class.zippy-expand]="isExpanded" (click)="onClick()">
+        {{title}} <p class="drop-btn">V</p>
+    </div>
+    <div class="zippy-body" [hidden]="!isExpanded">
+        <ng-content></ng-content>
+        <div class="glyphicon-chevron-up"></div>
+    </div>
+</div>
